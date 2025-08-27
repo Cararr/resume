@@ -1,0 +1,18 @@
+{
+	"name": "cv",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"validate": "resume validate",
+		"export-pdf": "npm run validate && resume export resume.pdf --theme kendall"
+	},
+	"dependencies": {
+		"jsonresume-theme-flat": "^0.3.7",
+		"jsonresume-theme-kendall": "^0.2.0",
+		"resume-cli": "^3.0.8"
+	}
+}

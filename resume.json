@@ -1,0 +1,146 @@
+{
+	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+	"meta": {
+		"x-lang": "pl",
+		"gdprClause": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO)."
+	},
+	"basics": {
+		"name": "Kamil Kacperek",
+		"label": "Full Stack Developer",
+		"email": "kamilkacperek91@gmail.com",
+		"phone": "+48 510 938 585",
+		"image": "https://media.newyorker.com/photos/59095bb86552fa0be682d9d0/master/w_2560%2Cc_limit/Monkey-Selfie.jpg",
+		"summary": "Doświadczony Full Stack Developer z ponad 6-letnim doświadczeniem w tworzeniu i utrzymaniu zaawansowanych aplikacji webowych oraz interfejsów API. Z silnym ukierunkowaniem na technologie backendowe, które stanowią trzon moich kompetencji, zachowuję jednocześnie biegłość w tworzeniu nowoczesnych i responsywnych interfejsów użytkownika. Specjalizuję się w nowoczesnych technologiach backendowych, takich jak NestJS i Symfony, oraz frontendowych, w tym React i Next.js. Posiadam doświadczenie w projektowaniu i implementacji skalowalnych rozwiązań, integracji z zewnętrznymi usługami oraz wdrażaniu innowacyjnych funkcjonalności opartych o sztuczną inteligencję.",
+		"location": {
+			"city": "Świdnica",
+			"countryCode": "PL",
+			"region": "Dolnośląskie"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "kamil-kacperek",
+				"url": "https://www.linkedin.com/in/kamil-kacperek-78b911141/"
+			}
+		]
+	},
+	"work": [
+		{
+			"company": "Effectivity Sp. z o.o.",
+			"position": "Full Stack Developer",
+			"website": "https://effectivity.pl",
+			"startDate": "2021-11-01",
+			"endDate": "2025-09-01",
+			"summary": "Odpowiedzialny za kompleksowe tworzenie i utrzymanie aplikacji webowych oraz interfejsów API. Początkowo skupiony na rozwiązaniach opartych o WordPress/WooCommerce, ewoluowałem w kierunku zaawansowanych aplikacji i usług RESTful API z wykorzystaniem Symfony, API Platform, a potem głównie NestJS.",
+			"highlights": [
+				"Projektowanie, implementacja i utrzymanie skalowalnych REST API w NestJS oraz Symfony/API Platform.",
+				"Tworzenie i wdrażanie dynamicznych aplikacji internetowych w Next.js oraz interaktywnych dashboardów w React.",
+				"Rozwój i personalizacja platform e-commerce poprzez tworzenie szablonów i wtyczek do WordPress/WooCommerce.",
+				"Zarządzanie relacyjnymi bazami danych MySQL i PostgreSQL, włączając projektowanie baz i optymalizację zapytań.",
+				"Administracja serwerami opartymi o system Linux w celu zapewnienia ich stabilności i bezpieczeństwa.",
+				"Integracja systemów z zewnętrznymi usługami API (systemy płatności, platformy fakturowe, oprogramowanie ERP).",
+				"Tworzenie dedykowanych pluginów dla różnych systemów CMS w celu zapewnienia komunikacji z wewnętrznymi API firmy.",
+				"Implementacja chatbotów AI wykorzystujących architekturę RAG (Retrieval Augmented Generation).",
+				"Rozwój autonomicznych agentów AI do automatyzacji procesów tworzenia oprogramowania.",
+				"Integracja systemów generowania obrazów AI w aplikacjach e-commerce do funkcjonalności virtual try-on."
+			]
+		},
+		{
+			"company": "Branża medyczna",
+			"position": "Fizjoterapeuta",
+			"startDate": "2016-10-01",
+			"endDate": "2021-11-01",
+			"summary": "Praktyka zawodowa zrealizowana w ramach międzynarodowego programu Erasmus+. Zdobyłem praktyczne doświadczenie w tworzeniu aplikacji internetowych i zarządzaniu bazami danych.",
+			"highlights": [
+				"Budowa responsywnych stron internetowych z wykorzystaniem HTML5, CSS3 oraz JavaScript (jQuery, Bootstrap).",
+				"Tworzenie prostych aplikacji webowych w PHP z obsługą formularzy i zarządzaniem sesją użytkownika.",
+				"Wykonywanie podstawowych operacji na bazach danych MySQL."
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "Wrocławska Akademia Biznesu",
+			"area": "Informatyka - Inżynieria Internetowa",
+			"studyType": "Inżynier",
+			"startDate": "2020-10-01",
+			"endDate": "2024-03-01"
+		},
+		{
+			"institution": "Zespół Szkół Mechanicznych w Świdnicy",
+			"area": "Technik Informatyk",
+			"studyType": "Technik",
+			"startDate": "2015-09-01",
+			"endDate": "2019-06-01"
+		}
+	],
+	"skills": [
+		{
+			"name": "Backend",
+			"level": "",
+			"keywords": [
+				"Node.js",
+				"NestJS",
+				"Symfony",
+				"API Platform",
+				"PHP",
+				"REST API",
+				"TypeScript",
+				"TypeORM",
+				"Doctrine",
+				"Drizzle"
+			]
+		},
+		{
+			"name": "Frontend",
+			"level": "",
+			"keywords": [
+				"React",
+				"Next.js",
+				"JavaScript",
+				"HTML5",
+				"CSS3",
+				"Bootstrap",
+				"jQuery"
+			]
+		},
+		{
+			"name": "Bazy danych",
+			"level": "",
+			"keywords": [
+				"PostgreSQL",
+				"MySQL",
+				"Elasticsearch",
+				"Redis",
+				"Projektowanie baz danych",
+				"Optymalizacja zapytań"
+			]
+		},
+		{
+			"name": "Sztuczna Inteligencja (AI)",
+			"level": "",
+			"keywords": [
+				"Chatboty",
+				"Retrieval Augmented Generation (RAG)",
+				"Agenci AI",
+				"Generowanie obrazów",
+				"Virtual Try-On"
+			]
+		},
+		{
+			"name": "Narzędzia",
+			"level": "",
+			"keywords": ["Git", "Docker", "Linux", "NPM", "Composer"]
+		}
+	],
+	"languages": [
+		{
+			"language": "Polski",
+			"fluency": "Native"
+		},
+		{
+			"language": "Angielski",
+			"fluency": "C1"
+		}
+	]
+}
