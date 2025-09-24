@@ -8,7 +8,7 @@
 	"main": "index.js",
 	"scripts": {
 		"validate": "resume validate",
-		"export-pdf": "npm run validate && resume export resume.pdf --theme kendall"
+		"export-pdf": "npm run validate && resume export resume.pdf --theme ./themes/kendall"
 	},
 	"dependencies": {
 		"jsonresume-theme-flat": "^0.3.7",

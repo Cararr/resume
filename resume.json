@@ -6,11 +6,11 @@
 	},
 	"basics": {
 		"name": "Kamil Kacperek",
-		"label": "Full Stack Developer",
+		"label": "Frontend Developer",
 		"email": "kamilkacperek91@gmail.com",
 		"phone": "+48 510 938 585",
 		"image": "https://raw.githubusercontent.com/Cararr/resume/main/assets/avatar.jpg",
-		"summary": "Doświadczony Full Stack Developer z ponad 6-letnim doświadczeniem w tworzeniu i utrzymaniu zaawansowanych aplikacji webowych oraz interfejsów API. Z silnym ukierunkowaniem na technologie backendowe, które stanowią trzon moich kompetencji, zachowuję jednocześnie biegłość w tworzeniu nowoczesnych i responsywnych interfejsów użytkownika. Specjalizuję się w nowoczesnych technologiach backendowych, takich jak NestJS i Symfony, oraz frontendowych, w tym React i Next.js. Posiadam doświadczenie w projektowaniu i implementacji skalowalnych rozwiązań, integracji z zewnętrznymi usługami oraz wdrażaniu innowacyjnych funkcjonalności opartych o sztuczną inteligencję.",
+		"summary": "Doświadczony Frontend Developer z ponad 4-letnim doświadczeniem w tworzeniu i utrzymaniu zaawansowanych, interaktywnych aplikacji webowych. Trzonem moich umiejętności pozostaje wysoka znajmość języka TypeScript. Wykorzystuję nowoczesne frontendowe technologie, takich jak React oraz Next.js. Posiadam doświadczenie w projektowaniu i implementacji interaktywnych interfejsów użytkownika z wykorzystaniem silników renderujących (2D - PixiJS, 3D - Three.js).",
 		"location": {
 			"city": "Świdnica",
 			"countryCode": "PL",
@@ -27,22 +27,17 @@
 	"work": [
 		{
 			"company": "Effectivity Sp. z o.o.",
-			"position": "Full Stack Developer",
+			"position": "Frontend Developer",
 			"website": "https://effectivity.pl",
 			"startDate": "2021-11-01",
 			"endDate": "2025-09-01",
-			"summary": "Odpowiedzialny za kompleksowe tworzenie i utrzymanie aplikacji webowych oraz interfejsów API. Początkowo skupiony na rozwiązaniach opartych o WordPress/WooCommerce, ewoluowałem w kierunku zaawansowanych aplikacji i usług RESTful API z wykorzystaniem Symfony, API Platform, a potem głównie NestJS.",
+			"summary": "Odpowiedzialny za kompleksowe tworzenie i utrzymanie interaktywnych aplikacji webowych. Początkowo skupiony na podstawach front-endu (HTML, JS, SCSS), z czasem wyspecjalizowałem się w tworzeniu zaawansowanych aplikacji tworzonych z wykorzystaniem React i Next.js z elementami interaktywnych wizualizacji 2D i 3D.",
 			"highlights": [
-				"Projektowanie, implementacja i utrzymanie skalowalnych REST API w NestJS oraz Symfony/API Platform.",
-				"Tworzenie i wdrażanie dynamicznych aplikacji internetowych w Next.js oraz interaktywnych dashboardów w React.",
-				"Rozwój i personalizacja platform e-commerce poprzez tworzenie szablonów i wtyczek do WordPress/WooCommerce.",
-				"Zarządzanie relacyjnymi bazami danych MySQL i PostgreSQL, włączając projektowanie baz i optymalizację zapytań.",
-				"Administracja serwerami opartymi o system Linux w celu zapewnienia ich stabilności i bezpieczeństwa.",
-				"Integracja systemów z zewnętrznymi usługami API (systemy płatności, platformy fakturowe, oprogramowanie ERP).",
-				"Tworzenie dedykowanych pluginów dla różnych systemów CMS w celu zapewnienia komunikacji z wewnętrznymi API firmy.",
-				"Implementacja chatbotów AI wykorzystujących architekturę RAG (Retrieval Augmented Generation).",
-				"Rozwój autonomicznych agentów AI do automatyzacji procesów tworzenia oprogramowania.",
-				"Integracja systemów generowania obrazów AI w aplikacjach e-commerce do funkcjonalności virtual try-on."
+				"Projektowanie i implementacja komponentów front-endowych w React i Next.js z wykorzystaniem TypeScript.",
+				"Tworzenie interaktywnych wizualizacji 2D i 3D w oparciu o Three.js i WebGL, wspierających konfiguratory produktów.",
+				"Opracowanie i wdrożenie szablonu panelu administracyjnego wykorzystywanego jako standard w całej firmie.",
+				"Rozwój aplikacji mobilnej w technologii Capacitor.js, zapewniającej wsparcie dla platform Android i iOS.",
+				"Tworzenie i wdrażanie Web Components umożliwiających ponowne użycie interaktywnych modułów w różnych aplikacjach"
 			]
 		},
 		{
@@ -50,87 +45,57 @@
 			"position": "Fizjoterapeuta",
 			"startDate": "2016-10-01",
 			"endDate": "2021-11-01",
-			"summary": "Praktyka zawodowa zrealizowana w ramach międzynarodowego programu Erasmus+. Zdobyłem praktyczne doświadczenie w tworzeniu aplikacji internetowych i zarządzaniu bazami danych.",
+			"summary": "Praca z pacjentami w środowisku klinicznym, wymagająca wysokich kompetencji interpersonalnych, umiejętności współpracy w interdyscyplinarnym zespole oraz podejmowania decyzji pod presją czasu. Doświadczenie to znacząco rozwinęło moje zdolności komunikacyjne i organizacyjne, które obecnie wykorzystuję w pracy zespołowej przy projektach IT.",
 			"highlights": [
-				"Budowa responsywnych stron internetowych z wykorzystaniem HTML5, CSS3 oraz JavaScript (jQuery, Bootstrap).",
-				"Tworzenie prostych aplikacji webowych w PHP z obsługą formularzy i zarządzaniem sesją użytkownika.",
-				"Wykonywanie podstawowych operacji na bazach danych MySQL."
+				"Ścisła współpraca z innymi fizjoterapeutami przy planowaniu i prowadzeniu terapii pacjentów.",
+				"Dostosowywanie metod pracy i komunikacji do indywidualnych potrzeb pacjentów o różnym stopniu sprawności.",
+				"Planowanie i organizacja terapii w warunkach wymagających dobrej koordynacji zespołowej."
 			]
 		}
 	],
 	"education": [
 		{
-			"institution": "Wrocławska Akademia Biznesu",
-			"area": "Informatyka - Inżynieria Internetowa",
-			"studyType": "Inżynier",
-			"startDate": "2020-10-01",
-			"endDate": "2024-03-01"
-		},
-		{
-			"institution": "Zespół Szkół Mechanicznych w Świdnicy",
-			"area": "Technik Informatyk",
-			"studyType": "Technik",
-			"startDate": "2015-09-01",
-			"endDate": "2019-06-01"
+			"institution": "Akademia Wychowania Fizycznego we Wrocławiu",
+			"area": "Fizjoterapia",
+			"studyType": "Magister",
+			"startDate": "2010-10-01",
+			"endDate": "2016-07-01"
 		}
 	],
 	"skills": [
-		{
-			"name": "Backend",
-			"level": "",
-			"keywords": [
-				"Node.js",
-				"NestJS",
-				"Symfony",
-				"API Platform",
-				"PHP",
-				"REST API",
-				"TypeScript",
-				"TypeORM",
-				"Doctrine",
-				"Drizzle"
-			]
-		},
 		{
 			"name": "Frontend",
 			"level": "",
 			"keywords": [
 				"React",
 				"Next.js",
-				"JavaScript",
-				"HTML5",
-				"CSS3",
-				"Bootstrap",
-				"jQuery"
+				"TypeScript",
+				"SCSS",
+				"Mantine",
+				"TanStack Query/Table/Virtual"
 			]
 		},
 		{
-			"name": "Bazy danych",
+			"name": "Interaktywne UI",
 			"level": "",
-			"keywords": [
-				"PostgreSQL",
-				"MySQL",
-				"Elasticsearch",
-				"Redis",
-				"Projektowanie baz danych",
-				"Optymalizacja zapytań"
-			]
-		},
-		{
-			"name": "Sztuczna Inteligencja (AI)",
-			"level": "",
-			"keywords": [
-				"Chatboty",
-				"Retrieval Augmented Generation (RAG)",
-				"Agenci AI",
-				"Generowanie obrazów",
-				"Virtual Try-On"
-			]
+			"keywords": ["PixiJS", "Three.js", "GSAP"]
 		},
 		{
 			"name": "Narzędzia",
 			"level": "",
-			"keywords": ["Git", "Docker", "Linux", "NPM", "Composer"]
+			"keywords": [
+				"VSCode",
+				"GitHub Copilot",
+				"Git",
+				"Linux",
+				"NPM",
+				"Vite",
+				"Capacitor"
+			]
+		},
+		{
+			"name": "Backend / API",
+			"keywords": ["Node.js (Express)", "WebSockets", "REST API"]
 		}
 	],
 	"languages": [
