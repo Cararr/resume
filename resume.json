@@ -87,7 +87,6 @@
 				"VSCode",
 				"GitHub Copilot",
 				"Git",
-				"Linux",
 				"NPM",
 				"Vite",
 				"Capacitor"
@@ -95,6 +94,7 @@
 		},
 		{
 			"name": "Backend / API",
+			"level": "Podstawowa znajmość",
 			"keywords": ["Node.js (Express)", "WebSockets", "REST API"]
 		}
 	],
