@@ -42,8 +42,7 @@ blockquote {
 	overflow: hidden;
 	padding: 5px;
 	background: #334960;
-	display: flex;
-	justify-content: center;
+	display: inline-block;
 }
 #photo img {
 	width: 150px;
