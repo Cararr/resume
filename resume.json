@@ -10,7 +10,7 @@
 		"email": "kamilkacperek91@gmail.com",
 		"phone": "+48 510 938 585",
 		"image": "https://raw.githubusercontent.com/Cararr/resume/main/assets/avatar1.jpg",
-		"summary": "Doświadczony Frontend Developer z ponad 4-letnim doświadczeniem w tworzeniu i utrzymaniu zaawansowanych, interaktywnych aplikacji webowych. Trzonem moich umiejętności pozostaje wysoka znajmość języka TypeScript. Wykorzystuję nowoczesne frontendowe technologie, takich jak React oraz Next.js. Posiadam doświadczenie w projektowaniu i implementacji interaktywnych interfejsów użytkownika z wykorzystaniem silników renderujących (2D - PixiJS, 3D - Three.js).",
+		"summary": "Doświadczony Frontend Developer z ponad 4-letnim doświadczeniem w tworzeniu i utrzymaniu zaawansowanych, interaktywnych aplikacji webowych. Podstawą moich umiejętności jest biegła znajomość języka TypeScript. Wykorzystuję nowoczesne frontendowe technologie, takie jak React oraz Next.js. Posiadam doświadczenie w projektowaniu i implementacji interaktywnych interfejsów użytkownika z wykorzystaniem silników renderujących (2D - PixiJS, 3D - Three.js).",
 		"location": {
 			"city": "Świdnica",
 			"countryCode": "PL",
@@ -30,11 +30,10 @@
 			"position": "Frontend Developer",
 			"website": "https://effectivity.pl",
 			"startDate": "2021-11-01",
-			"endDate": "2025-09-01",
-			"summary": "Odpowiedzialny za kompleksowe tworzenie i utrzymanie interaktywnych aplikacji webowych. Początkowo skupiony na podstawach front-endu (HTML, JS, SCSS), z czasem wyspecjalizowałem się w tworzeniu zaawansowanych aplikacji tworzonych z wykorzystaniem React i Next.js z elementami interaktywnych wizualizacji 2D i 3D.",
+			"summary": "Odpowiadam za kompleksowe tworzenie i utrzymanie interaktywnych aplikacji webowych. Zacząłem od podstaw front-endu (HTML, JS, SCSS), z czasem wyspecjalizowałem się w tworzeniu zaawansowanych aplikacji w React i Next.js z elementami interaktywnych wizualizacji 2D i 3D.",
 			"highlights": [
 				"Projektowanie i implementacja komponentów front-endowych w React i Next.js z wykorzystaniem TypeScript.",
-				"Tworzenie interaktywnych wizualizacji 2D i 3D w oparciu o Three.js i WebGL, wspierających konfiguratory produktów.",
+				"Tworzenie interaktywnych wizualizacji 2D i 3D z wykorzystaniem Three.js i PixiJS, wspierających konfiguratory produktów.",
 				"Opracowanie i wdrożenie szablonu panelu administracyjnego wykorzystywanego jako standard w całej firmie.",
 				"Rozwój aplikacji mobilnej w technologii Capacitor.js, zapewniającej wsparcie dla platform Android i iOS.",
 				"Tworzenie i wdrażanie Web Components umożliwiających ponowne użycie interaktywnych modułów w różnych aplikacjach"
@@ -65,7 +64,7 @@
 	"skills": [
 		{
 			"name": "Frontend",
-			"level": "",
+			"level": "Biegła znajomość",
 			"keywords": [
 				"React",
 				"Next.js",
@@ -87,14 +86,14 @@
 		},
 		{
 			"name": "Backend / API",
-			"level": "Podstawowa znajmość",
+			"level": "Podstawowa znajomość",
 			"keywords": ["Node.js (Express)", "WebSockets"]
 		}
 	],
 	"languages": [
 		{
 			"language": "Polski",
-			"fluency": "Native"
+			"fluency": "Ojczysty"
 		},
 		{
 			"language": "Angielski",
