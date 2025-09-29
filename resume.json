@@ -10,7 +10,7 @@
 		"email": "kamilkacperek91@gmail.com",
 		"phone": "+48 510 938 585",
 		"image": "https://raw.githubusercontent.com/Cararr/resume/main/assets/avatar1.jpg",
-		"summary": "Doświadczony Frontend Developer z ponad 4-letnim doświadczeniem w tworzeniu i utrzymaniu zaawansowanych, interaktywnych aplikacji webowych. Podstawą moich umiejętności jest biegła znajomość języka TypeScript. Wykorzystuję nowoczesne frontendowe technologie, takie jak React oraz Next.js. Posiadam doświadczenie w projektowaniu i implementacji interaktywnych interfejsów użytkownika z wykorzystaniem silników renderujących (2D - PixiJS, 3D - Three.js).",
+		"summary": "Frontend Developer z ponad 4-letnim doświadczeniem w tworzeniu i utrzymaniu zaawansowanych, interaktywnych aplikacji webowych. Podstawą moich umiejętności jest biegła znajomość języka TypeScript. Wykorzystuję nowoczesne frontendowe technologie, takie jak React oraz Next.js. Posiadam doświadczenie w projektowaniu i implementacji interaktywnych interfejsów użytkownika z wykorzystaniem silników renderujących (2D - PixiJS, 3D - Three.js).",
 		"location": {
 			"city": "Świdnica",
 			"countryCode": "PL",
@@ -46,9 +46,9 @@
 			"endDate": "2021-11-01",
 			"summary": "Praca z pacjentami w środowisku klinicznym, wymagająca wysokich kompetencji interpersonalnych, umiejętności współpracy w interdyscyplinarnym zespole oraz podejmowania decyzji pod presją czasu. Doświadczenie to znacząco rozwinęło moje zdolności komunikacyjne i organizacyjne, które obecnie wykorzystuję w pracy zespołowej przy projektach IT.",
 			"highlights": [
-				"Ścisła współpraca z innymi fizjoterapeutami przy planowaniu i prowadzeniu terapii pacjentów.",
-				"Dostosowywanie metod pracy i komunikacji do indywidualnych potrzeb pacjentów o różnym stopniu sprawności.",
-				"Planowanie i organizacja terapii w warunkach wymagających dobrej koordynacji zespołowej."
+				"Ścisła współpraca z innymi fizjoterapeutami w planowaniu i prowadzeniu terapii pacjentów.",
+				"Dostosowywanie metod pracy i komunikacji do indywidualnych potrzeb pacjentów.",
+				"Planowanie i organizacja terapii wymagającej dobrej koordynacji zespołowej."
 			]
 		}
 	],
