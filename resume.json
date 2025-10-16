@@ -87,7 +87,7 @@
 		{
 			"name": "Backend / API",
 			"level": "Podstawowa znajomość",
-			"keywords": ["Node.js (Express)", "WebSockets"]
+			"keywords": ["Node.js (NestJS)", "WebSockets"]
 		}
 	],
 	"languages": [
