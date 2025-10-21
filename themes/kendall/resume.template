@@ -43,6 +43,25 @@
             <p>{{{basics.summary}}}</p>
           </div>
           {{/basics.summary}}
+          {{#skillsBool}}
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Umiejętności</h2>
+            {{#skills}}
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  {{name}}
+                  {{#level}}<span class="skill-level">{{level}}</span>{{/level}}
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                {{#keywords}}
+                <span class= "skill badge">{{{.}}}</span>
+                {{/keywords}}
+              </div>
+            </div>
+            {{/skills}}
+          </div>
+          {{/skillsBool}}
           {{#workBool}}
           <!-- WORK EXPERIENCE -->
           <div class="box">
@@ -92,11 +111,8 @@
                 </div>
               {{/work}}
             </div>
-
           </div>
           {{/workBool}}
-        </div>
-        <div class="col-xs-12 col-sm-5">
           <!-- CONTACT -->
           <div class="box clearfix">
             <h2><i class="fas fa-bullseye ico"></i> Kontakt</h2>
@@ -170,52 +186,6 @@
             </ul>
           </div>
           {{/educationBool}}
-          {{#skillsBool}}
-          <!-- SKILLS -->
-          <div class="box">
-            <h2><i class="fas fa-tasks ico"></i> Umiejętności</h2>
-            {{#skills}}
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  {{name}}
-                  {{#level}}<span class="skill-level">{{level}}</span>{{/level}}
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                {{#keywords}}
-                <span class= "skill badge">{{{.}}}</span>
-                {{/keywords}}
-              </div>
-            </div>
-            {{/skills}}
-          </div>
-          {{/skillsBool}}
-          {{#publicationsBool}}
-          <!-- PUBLICATIONS -->
-          <div class="box">
-            <h2><i class="fas fa-book ico"></i> Publikacje</h2>
-            {{#publications}}
-            <div class="publication panel panel-default">
-              <div class="panel-heading">
-                <div class="name panel-title">{{name}}</div>
-              </div>
-              <div class="panel-body">
-                {{#publisher}}
-                <div class="publisher"><i class= "fas fa-bookmark ico"></i> {{publisher}}</div>
-                {{/publisher}}
-                <div class="year">{{day}} {{month}} {{year}}</div>
-                {{#url}}
-                <div class="address">
-                  <a href="{{url}}" target= "_blank"><i class="fas fa-globe ico"></i> {{url}}</a>
-                </div>
-                {{/url}}
-                {{#summary}}
-                <p>{{{summary}}}</p>
-                {{/summary}}
-              </div>
-            </div>
-            {{/publications}}
-          </div>
-          {{/publicationsBool}}
           {{#languagesBool}}
           <!-- LANGUAGES -->
           <div class="box">
@@ -227,37 +197,6 @@
             </ul>
           </div>
           {{/languagesBool}}
-          {{#interestsBool}}
-          <!-- HOBBIES -->
-          <div class="box">
-            <h2><i class="fas fa-heart ico"></i> Zainteresowania</h2>
-            {{#interests}}
-            <div class="interests clearfix">
-              <div class="item-interests">
-                  {{name}}
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                {{#keywords}}
-                <span class= "interest badge">{{{.}}}</span>
-                {{/keywords}}
-              </div>
-            </div>
-            {{/interests}}
-          </div>
-          {{/interestsBool}}
-          {{#referencesBool}}
-          <div class="box">
-            <h2><i class= "fas fa-check-square ico"></i> Referencje</h2>
-            {{#references}}
-            <blockquote>
-              <div>{{{reference}}}</div>
-              <footer>
-                <a href="{{url}}" target= "_blank">{{name}}</a>
-              </footer>
-            </blockquote><br>
-            {{/references}}
-          </div>
-          {{/referencesBool}}
         </div>
       </div>
     </div>

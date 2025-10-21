@@ -10,7 +10,7 @@
 		"email": "kamilkacperek91@gmail.com",
 		"phone": "+48 510 938 585",
 		"image": "https://raw.githubusercontent.com/Cararr/resume/main/assets/avatar1.jpg",
-		"summary": "Frontend Developer z ponad 4-letnim doświadczeniem w tworzeniu i utrzymaniu zaawansowanych, interaktywnych aplikacji webowych. Podstawą moich umiejętności jest biegła znajomość języka TypeScript. Wykorzystuję nowoczesne frontendowe technologie, takie jak React oraz Next.js. Posiadam doświadczenie w projektowaniu i implementacji interaktywnych interfejsów użytkownika z wykorzystaniem silników renderujących (2D - PixiJS, 3D - Three.js).",
+		"summary": "Frontend Developer z 4+ lat doświadczenia w pracy z TypeScriptem i Reactem. Posiadam praktyczne doświadczenie w Next.js oraz w tworzeniu interaktywnych aplikacji i wizualizacji z wykorzystaniem Three.js oraz PixiJS",
 		"location": {
 			"city": "Świdnica",
 			"countryCode": "PL",
@@ -63,11 +63,10 @@
 	],
 	"skills": [
 		{
-			"name": "Frontend",
-			"level": "Biegła znajomość",
+			"name": "Biegła znajomość",
+			"level": "",
 			"keywords": [
 				"React",
-				"Next.js",
 				"TypeScript",
 				"SCSS",
 				"Mantine",
@@ -75,19 +74,19 @@
 			]
 		},
 		{
-			"name": "Interaktywne UI",
+			"name": "Dobra znajomość",
 			"level": "",
-			"keywords": ["PixiJS", "Three.js", "GSAP"]
+			"keywords": ["Next.js", "PixiJS", "Three.js", "Capacitor"]
+		},
+		{
+			"name": "Podstawowa znajomość",
+			"level": "",
+			"keywords": ["Node.js (NestJS)", "WebSockets (Socket.io)", "GSAP"]
 		},
 		{
 			"name": "Narzędzia",
 			"level": "",
-			"keywords": ["VSCode", "GitHub Copilot", "Git", "Vite", "Capacitor"]
-		},
-		{
-			"name": "Backend / API",
-			"level": "Podstawowa znajomość",
-			"keywords": ["Node.js (NestJS)", "WebSockets"]
+			"keywords": ["VSCode", "GitHub Copilot", "Git", "Vite"]
 		}
 	],
 	"languages": [
