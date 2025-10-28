@@ -76,7 +76,7 @@
 		{
 			"name": "Dobra znajomość",
 			"level": "",
-			"keywords": ["Next.js", "PixiJS", "Three.js", "Capacitor"]
+			"keywords": ["Next.js", "Three.js", "PixiJS", "Capacitor"]
 		},
 		{
 			"name": "Podstawowa znajomość",
@@ -86,7 +86,7 @@
 		{
 			"name": "Narzędzia",
 			"level": "",
-			"keywords": ["VSCode", "GitHub Copilot", "Git", "Vite"]
+			"keywords": ["VSCode", "GitHub Copilot", "Git", "Vite", "Jira"]
 		}
 	],
 	"languages": [
