@@ -6,32 +6,74 @@ var Mustache = require('mustache');
 var d = new Date();
 var curyear = d.getFullYear();
 
+const LANGUAGE = {
+	EN: 'en',
+	PL: 'pl',
+};
+
+const RESUME_LANG = LANGUAGE.EN;
+
 function getMonth(startDateStr) {
-	switch (startDateStr.substr(5, 2)) {
-		case '01':
-			return 'Styczeń ';
-		case '02':
-			return 'Luty ';
-		case '03':
-			return 'Marzec ';
-		case '04':
-			return 'Kwiecień ';
-		case '05':
-			return 'Maj ';
-		case '06':
-			return 'Czerwiec ';
-		case '07':
-			return 'Lipiec ';
-		case '08':
-			return 'Sierpień ';
-		case '09':
-			return 'Wrzesień ';
-		case '10':
-			return 'Październik ';
-		case '11':
-			return 'Listopad ';
-		case '12':
-			return 'Grudzień ';
+	switch (RESUME_LANG) {
+		case LANGUAGE.PL:
+			switch (startDateStr.substr(5, 2)) {
+				case '01':
+					return 'Styczeń ';
+				case '02':
+					return 'Luty ';
+				case '03':
+					return 'Marzec ';
+				case '04':
+					return 'Kwiecień ';
+				case '05':
+					return 'Maj ';
+				case '06':
+					return 'Czerwiec ';
+				case '07':
+					return 'Lipiec ';
+				case '08':
+					return 'Sierpień ';
+				case '09':
+					return 'Wrzesień ';
+				case '10':
+					return 'Październik ';
+				case '11':
+					return 'Listopad ';
+				case '12':
+					return 'Grudzień ';
+			}
+			break;
+		case LANGUAGE.EN:
+			switch (startDateStr.substr(5, 2)) {
+				case '01':
+					return 'January ';
+				case '02':
+					return 'February ';
+				case '03':
+					return 'March ';
+				case '04':
+					return 'April ';
+				case '05':
+					return 'May ';
+				case '06':
+					return 'June ';
+				case '07':
+					return 'July ';
+				case '08':
+					return 'August ';
+				case '09':
+					return 'September ';
+				case '10':
+					return 'October ';
+				case '11':
+					return 'November ';
+				case '12':
+					return 'December ';
+			}
+			break;
+
+		default:
+			break;
 	}
 }
 
@@ -115,7 +157,14 @@ function render(resumeObject) {
 				w.endDateYear = (w.endDate || '').substr(0, 4);
 				w.endDateMonth = getMonth(w.endDate || '');
 			} else {
-				w.endDateYear = 'Obecnie';
+				switch (RESUME_LANG) {
+					case LANGUAGE.PL:
+						w.endDateMonth = 'Obecnie';
+						break;
+					case LANGUAGE.EN:
+						w.endDateMonth = 'Present';
+						break;
+				}
 			}
 			if (w.highlights) {
 				if (w.highlights[0]) {

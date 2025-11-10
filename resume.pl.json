@@ -1,0 +1,102 @@
+{
+	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+	"meta": {
+		"x-lang": "pl",
+		"gdprClause": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO)."
+	},
+	"basics": {
+		"name": "Kamil Kacperek",
+		"label": "Frontend Developer",
+		"email": "kamilkacperek91@gmail.com",
+		"phone": "+48 510 938 585",
+		"image": "https://raw.githubusercontent.com/Cararr/resume/main/assets/avatar1.jpg",
+		"summary": "Frontend Developer z 4+ lat doświadczenia w pracy z TypeScriptem i Reactem. Posiadam praktyczne doświadczenie w Next.js oraz w tworzeniu interaktywnych aplikacji i wizualizacji z wykorzystaniem Three.js oraz PixiJS",
+		"location": {
+			"city": "Świdnica",
+			"countryCode": "PL",
+			"region": "Dolnośląskie"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "kamil-kacperek",
+				"url": "https://www.linkedin.com/in/kamil-kacperek-78b911141/"
+			}
+		]
+	},
+	"work": [
+		{
+			"company": "Effectivity Sp. z o.o.",
+			"position": "Frontend Developer",
+			"website": "https://effectivity.pl",
+			"startDate": "2021-11-01",
+			"summary": "Odpowiadam za kompleksowe tworzenie i utrzymanie interaktywnych aplikacji webowych. Zacząłem od podstaw front-endu (HTML, JS, SCSS), z czasem wyspecjalizowałem się w tworzeniu zaawansowanych aplikacji w React i Next.js z elementami interaktywnych wizualizacji 2D i 3D.",
+			"highlights": [
+				"Projektowanie i implementacja komponentów front-endowych w React i Next.js z wykorzystaniem TypeScript.",
+				"Tworzenie interaktywnych wizualizacji 2D i 3D z wykorzystaniem Three.js i PixiJS, wspierających konfiguratory produktów.",
+				"Opracowanie i wdrożenie szablonu panelu administracyjnego wykorzystywanego jako standard w całej firmie.",
+				"Rozwój aplikacji mobilnej w technologii Capacitor.js, zapewniającej wsparcie dla platform Android i iOS.",
+				"Tworzenie i wdrażanie Web Components umożliwiających ponowne użycie interaktywnych modułów w różnych aplikacjach"
+			]
+		},
+		{
+			"company": "Branża medyczna",
+			"position": "Fizjoterapeuta",
+			"startDate": "2016-10-01",
+			"endDate": "2021-11-01",
+			"summary": "Praca z pacjentami w środowisku klinicznym, wymagająca wysokich kompetencji interpersonalnych, umiejętności współpracy w interdyscyplinarnym zespole oraz podejmowania decyzji pod presją czasu. Doświadczenie to znacząco rozwinęło moje zdolności komunikacyjne i organizacyjne, które obecnie wykorzystuję w pracy zespołowej przy projektach IT.",
+			"highlights": [
+				"Ścisła współpraca z innymi fizjoterapeutami w planowaniu i prowadzeniu terapii pacjentów.",
+				"Dostosowywanie metod pracy i komunikacji do indywidualnych potrzeb pacjentów.",
+				"Planowanie i organizacja terapii wymagającej dobrej koordynacji zespołowej."
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "Akademia Wychowania Fizycznego we Wrocławiu",
+			"area": "Fizjoterapia",
+			"studyType": "Magister",
+			"startDate": "2010-10-01",
+			"endDate": "2016-07-01"
+		}
+	],
+	"skills": [
+		{
+			"name": "Biegła znajomość",
+			"level": "",
+			"keywords": [
+				"React",
+				"TypeScript",
+				"SCSS",
+				"Mantine",
+				"TanStack Query/Table/Virtual"
+			]
+		},
+		{
+			"name": "Dobra znajomość",
+			"level": "",
+			"keywords": ["Next.js", "Three.js", "PixiJS", "Capacitor"]
+		},
+		{
+			"name": "Podstawowa znajomość",
+			"level": "",
+			"keywords": ["Node.js (NestJS)", "WebSockets (Socket.io)", "GSAP"]
+		},
+		{
+			"name": "Narzędzia",
+			"level": "",
+			"keywords": ["VSCode", "GitHub Copilot", "Git", "Vite", "Jira"]
+		}
+	],
+	"languages": [
+		{
+			"language": "Polski",
+			"fluency": "Ojczysty"
+		},
+		{
+			"language": "Angielski",
+			"fluency": "C1"
+		}
+	]
+}
