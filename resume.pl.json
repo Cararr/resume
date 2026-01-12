@@ -86,7 +86,7 @@
 		{
 			"name": "Narzędzia",
 			"level": "",
-			"keywords": ["VSCode", "GitHub Copilot", "Git", "Vite", "Jira"]
+			"keywords": ["VSCode", "Cursor", "GitHub Copilot", "Git", "Vite", "Jira"]
 		}
 	],
 	"languages": [
