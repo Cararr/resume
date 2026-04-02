@@ -74,11 +74,17 @@
 		},
 		{
 			"name": "Good knowledge of",
-			"keywords": ["Next.js", "Three.js", "PixiJS", "Capacitor"]
+			"keywords": [
+				"Next.js",
+				"Three.js",
+				"PixiJS",
+				"Capacitor",
+				"Node.js (NestJS)"
+			]
 		},
 		{
 			"name": "Basic knowledge of",
-			"keywords": ["Node.js (NestJS)", "WebSockets (Socket.io)", "GSAP"]
+			"keywords": ["WebSockets (Socket.io)", "GSAP"]
 		},
 		{
 			"name": "Tools",

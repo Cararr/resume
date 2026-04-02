@@ -39,14 +39,14 @@
           {{#basics.summary}}
           <!-- ABOUT ME -->
           <div class="box">
-            <h2><i class="fas fa-user ico"></i> Summary</h2>
+            <h2><i class="fas fa-user ico"></i> O mnie</h2>
             <p>{{{basics.summary}}}</p>
           </div>
           {{/basics.summary}}
           {{#skillsBool}}
           <!-- SKILLS -->
           <div class="box">
-            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <h2><i class="fas fa-tasks ico"></i> Umiejętności</h2>
             {{#skills}}
             <div class="skills clearfix">
               <div class="item-skills">
@@ -65,7 +65,7 @@
           {{#workBool}}
           <!-- WORK EXPERIENCE -->
           <div class="box">
-            <h2><i class= "fas fa-suitcase ico"></i> Experience</h2>
+            <h2><i class= "fas fa-suitcase ico"></i> Doświadczenie</h2>
             <div class= "jobs-container">
               {{#work}}
                 <div class="job clearfix">
@@ -98,7 +98,7 @@
                       <div class="description">
                         {{{summary}}}
                         {{#boolHighlights}}
-                        <div class="highlights">Highlights</div>
+                        <div class="highlights">Kluczowe zadania</div>
                         <ul class="list-group">
                           {{#highlights}}
                           <li class="list-group-item">{{{.}}}</li>
@@ -115,7 +115,7 @@
           {{/workBool}}
           <!-- CONTACT -->
           <div class="box clearfix">
-            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <h2><i class="fas fa-bullseye ico"></i> Kontakt</h2>
             {{#basics.location}}
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
@@ -152,7 +152,7 @@
           {{#educationBool}}
           <!-- EDUCATION -->
           <div class="box">
-            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <h2><i class="fas fa-university ico"></i> Edukacja</h2>
             <ul id="education" class="clearfix">
               {{#education}}
               <li>
