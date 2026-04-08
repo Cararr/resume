@@ -8,7 +8,7 @@
 	"main": "index.js",
 	"scripts": {
 		"validate": "resume validate",
-		"build-pdf": "npm run validate && resume export resume.pdf --theme ./themes/kendall"
+		"build-pdf": "node scripts/build-pdf.js"
 	},
 	"dependencies": {
 		"jsonresume-theme-flat": "^0.3.7",

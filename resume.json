@@ -1,8 +1,8 @@
 {
 	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
 	"meta": {
-		"x-lang": "pl",
-		"gdprClause": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO)."
+		"x-lang": "en",
+		"gdprClause": "I consent to the processing of my personal data for the purposes necessary to carry out the recruitment process in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (GDPR)."
 	},
 	"basics": {
 		"name": "Kamil Kacperek",
@@ -10,11 +10,11 @@
 		"email": "kamilkacperek91@gmail.com",
 		"phone": "+48 510 938 585",
 		"image": "https://raw.githubusercontent.com/Cararr/resume/main/assets/avatar1.jpg",
-		"summary": "Frontend Developer z 4+ lat doświadczenia w pracy z TypeScriptem i Reactem. Posiadam praktyczne doświadczenie w Next.js oraz w tworzeniu interaktywnych aplikacji i wizualizacji z wykorzystaniem Three.js oraz PixiJS",
+		"summary": "Frontend Developer with 4+ years of experience in TypeScript and React. Skilled in Next.js and building interactive 2D/3D web applications using Three.js and PixiJS.",
 		"location": {
 			"city": "Świdnica",
 			"countryCode": "PL",
-			"region": "Dolnośląskie"
+			"region": "Lower Silesia"
 		},
 		"profiles": [
 			{
@@ -30,41 +30,40 @@
 			"position": "Frontend Developer",
 			"website": "https://effectivity.pl",
 			"startDate": "2021-11-01",
-			"summary": "Odpowiadam za kompleksowe tworzenie i utrzymanie interaktywnych aplikacji webowych. Zacząłem od podstaw front-endu (HTML, JS, SCSS), z czasem wyspecjalizowałem się w tworzeniu zaawansowanych aplikacji w React i Next.js z elementami interaktywnych wizualizacji 2D i 3D.",
+			"summary": "Responsible for the end-to-end development and maintenance of interactive web applications. Started with core front-end technologies (HTML, JS, SCSS) and later specialized in building advanced React and Next.js applications with 2D and 3D visualization components.",
 			"highlights": [
-				"Projektowanie i implementacja komponentów front-endowych w React i Next.js z wykorzystaniem TypeScript.",
-				"Tworzenie interaktywnych wizualizacji 2D i 3D z wykorzystaniem Three.js i PixiJS, wspierających konfiguratory produktów.",
-				"Opracowanie i wdrożenie szablonu panelu administracyjnego wykorzystywanego jako standard w całej firmie.",
-				"Rozwój aplikacji mobilnej w technologii Capacitor.js, zapewniającej wsparcie dla platform Android i iOS.",
-				"Tworzenie i wdrażanie Web Components umożliwiających ponowne użycie interaktywnych modułów w różnych aplikacjach"
+				"Designed and implemented front-end components in React and Next.js using TypeScript.",
+				"Developed interactive 2D and 3D visualizations with Three.js and PixiJS to support product configurators.",
+				"Created and deployed an internal admin panel template adopted as a standard across the company.",
+				"Developed a mobile application using Capacitor.js, providing support for both Android and iOS platforms.",
+				"Implemented reusable Web Components to enable the integration of interactive modules across different applications."
 			]
 		},
 		{
-			"company": "Branża medyczna",
-			"position": "Fizjoterapeuta",
+			"company": "Medical Sector",
+			"position": "Physiotherapist",
 			"startDate": "2016-10-01",
 			"endDate": "2021-11-01",
-			"summary": "Praca z pacjentami w środowisku klinicznym, wymagająca wysokich kompetencji interpersonalnych, umiejętności współpracy w interdyscyplinarnym zespole oraz podejmowania decyzji pod presją czasu. Doświadczenie to znacząco rozwinęło moje zdolności komunikacyjne i organizacyjne, które obecnie wykorzystuję w pracy zespołowej przy projektach IT.",
+			"summary": "Worked with patients in a clinical environment, requiring strong interpersonal skills, teamwork, and the ability to make decisions under time pressure. This experience significantly enhanced my communication and organizational skills, which I now apply when collaborating on IT projects.",
 			"highlights": [
-				"Ścisła współpraca z innymi fizjoterapeutami w planowaniu i prowadzeniu terapii pacjentów.",
-				"Dostosowywanie metod pracy i komunikacji do indywidualnych potrzeb pacjentów.",
-				"Planowanie i organizacja terapii wymagającej dobrej koordynacji zespołowej."
+				"Collaborated closely with other physiotherapists to plan and conduct patient therapy sessions.",
+				"Adapted communication and treatment methods to individual patient needs.",
+				"Planned and organized therapy requiring effective team coordination."
 			]
 		}
 	],
 	"education": [
 		{
-			"institution": "Akademia Wychowania Fizycznego we Wrocławiu",
-			"area": "Fizjoterapia",
-			"studyType": "Magister",
+			"institution": "University School of Physical Education in Wrocław",
+			"area": "Physiotherapy",
+			"studyType": "Master’s Degree",
 			"startDate": "2010-10-01",
 			"endDate": "2016-07-01"
 		}
 	],
 	"skills": [
 		{
-			"name": "Biegła znajomość",
-			"level": "",
+			"name": "Proficient in",
 			"keywords": [
 				"React",
 				"TypeScript",
@@ -74,10 +73,10 @@
 			]
 		},
 		{
-			"name": "Dobra znajomość",
-			"level": "",
+			"name": "Good knowledge of",
 			"keywords": [
 				"Next.js",
+				"Redux (Redux Toolkit)",
 				"Three.js",
 				"PixiJS",
 				"Capacitor",
@@ -85,23 +84,21 @@
 			]
 		},
 		{
-			"name": "Podstawowa znajomość",
-			"level": "",
+			"name": "Basic knowledge of",
 			"keywords": ["WebSockets (Socket.io)", "GSAP"]
 		},
 		{
-			"name": "Narzędzia",
-			"level": "",
+			"name": "Tools",
 			"keywords": ["VSCode", "Cursor", "GitHub Copilot", "Git", "Vite", "Jira"]
 		}
 	],
 	"languages": [
 		{
-			"language": "Polski",
-			"fluency": "Ojczysty"
+			"language": "Polish",
+			"fluency": "Native"
 		},
 		{
-			"language": "Angielski",
+			"language": "English",
 			"fluency": "C1"
 		}
 	]
