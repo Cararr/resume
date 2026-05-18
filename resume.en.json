@@ -6,11 +6,11 @@
 	},
 	"basics": {
 		"name": "Kamil Kacperek",
-		"label": "Frontend Developer",
+		"label": "Frontend Engineer",
 		"email": "kamilkacperek91@gmail.com",
 		"phone": "+48 510 938 585",
 		"image": "https://raw.githubusercontent.com/Cararr/resume/main/assets/avatar1.jpg",
-		"summary": "Frontend Developer with 4+ years of experience in TypeScript and React. Skilled in Next.js and building interactive 2D/3D web applications using Three.js and PixiJS.",
+		"summary": "Frontend Engineer with 4+ years of experience in TypeScript and React. I work with the modern frontend ecosystem (Next.js, Mantine, TanStack Query) and tools for interactive UIs (Three.js, PixiJS). I have backend experience with Node.js and NestJS, which helps me design and integrate APIs effectively. I focus on performant, well-crafted applications with an emphasis on UX, code quality, and technical clarity.",
 		"location": {
 			"city": "Świdnica",
 			"countryCode": "PL",
@@ -27,16 +27,17 @@
 	"work": [
 		{
 			"company": "Effectivity Sp. z o.o.",
-			"position": "Frontend Developer",
+			"position": "Frontend Engineer",
 			"website": "https://effectivity.pl",
 			"startDate": "2021-11-01",
-			"summary": "Responsible for the end-to-end development and maintenance of interactive web applications. Started with core front-end technologies (HTML, JS, SCSS) and later specialized in building advanced React and Next.js applications with 2D and 3D visualization components.",
+			"summary": "I build and maintain interactive web applications—from foundational technologies (HTML, JS, SCSS) to advanced React and Next.js (TypeScript) with 2D and 3D visualizations. I also deliver REST APIs in NestJS in coordination with the client layer. I regularly join client meetings to refine requirements, review progress, and discuss technical options.",
 			"highlights": [
-				"Designed and implemented front-end components in React and Next.js using TypeScript.",
-				"Developed interactive 2D and 3D visualizations with Three.js and PixiJS to support product configurators.",
-				"Created and deployed an internal admin panel template adopted as a standard across the company.",
-				"Developed a mobile application using Capacitor.js, providing support for both Android and iOS platforms.",
-				"Implemented reusable Web Components to enable the integration of interactive modules across different applications."
+				"Design and implementation of components using React, Next.js, and TypeScript.",
+				"Development of interactive 3D (Three.js) and 2D (PixiJS) visualizations for product configurators.",
+				"Design and rollout of a company-wide admin panel template.",
+				"Development of a cross-platform mobile application using Capacitor.js (Android, iOS).",
+				"Creation and deployment of reusable Web Components.",
+				"Development of REST APIs using Node.js and NestJS, including data modeling and integration with frontend applications; designing and implementing JWT-based authentication (token issuance, validation, client-side handling; refresh aligned with the product architecture)."
 			]
 		},
 		{
@@ -89,7 +90,7 @@
 		},
 		{
 			"name": "Tools",
-			"keywords": ["VSCode", "Cursor", "GitHub Copilot", "Git", "Vite", "Jira"]
+			"keywords": ["Cursor", "VSCode", "Git", "Vite", "Jira"]
 		}
 	],
 	"languages": [
