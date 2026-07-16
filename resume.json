@@ -10,7 +10,7 @@
 		"email": "kamilkacperek91@gmail.com",
 		"phone": "+48 510 938 585",
 		"image": "https://raw.githubusercontent.com/Cararr/resume/main/assets/avatar1.jpg",
-		"summary": "Frontend Engineer with 4+ years of experience in TypeScript and React. I work with the modern frontend ecosystem (Next.js, Mantine, TanStack Query) and tools for interactive UIs (Three.js, PixiJS). I have backend experience with Node.js and NestJS, which helps me design and integrate APIs effectively. I focus on performant, well-crafted applications with an emphasis on UX, code quality, and technical clarity.",
+		"summary": "Frontend Engineer with 5 years of experience in TypeScript and React. I work with the modern frontend ecosystem (Next.js, Mantine, TanStack Query) and tools for interactive UIs (Three.js, PixiJS). I have backend experience with Node.js and NestJS, which helps me design and integrate APIs effectively. I focus on performant, well-crafted applications with an emphasis on UX, code quality, and technical clarity.",
 		"location": {
 			"city": "Świdnica",
 			"countryCode": "PL",
@@ -100,7 +100,7 @@
 		},
 		{
 			"language": "English",
-			"fluency": "C1"
+			"fluency": "B2 (professional working proficiency)"
 		}
 	]
 }
