@@ -16,13 +16,14 @@ const kendallIndex = path.join(root, "themes/kendall/index.js");
 
 function setResumeLang(lang) {
 	const content = fs.readFileSync(kendallIndex, "utf8");
+	if (!/const RESUME_LANG = LANGUAGE\.(EN|PL);/.test(content))
+		throw new Error(`Could not find RESUME_LANG in themes/kendall/index.js`);
 	const next = content.replace(
 		/const RESUME_LANG = LANGUAGE\.(EN|PL);/,
 		`const RESUME_LANG = LANGUAGE.${lang};`,
 	);
-	if (next === content)
-		throw new Error(`Could not set RESUME_LANG to LANGUAGE.${lang} in themes/kendall/index.js`);
-	fs.writeFileSync(kendallIndex, next, "utf8");
+	if (next !== content)
+		fs.writeFileSync(kendallIndex, next, "utf8");
 }
 
 // PL
