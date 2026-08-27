@@ -86,7 +86,10 @@ function render(resumeObject) {
 			d: 'mm',
 		});
 	}
-	if (resumeObject.basics.image || resumeObject.basics.gravatar) {
+	if (
+		RESUME_LANG !== LANGUAGE.EN &&
+		(resumeObject.basics.image || resumeObject.basics.gravatar)
+	) {
 		resumeObject.photo = resumeObject.basics.image
 			? resumeObject.basics.image
 			: resumeObject.basics.gravatar;
