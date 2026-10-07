@@ -11,7 +11,8 @@ const LANGUAGE = {
 	PL: 'pl',
 };
 
-const RESUME_LANG = LANGUAGE.EN;
+const RESUME_LANG =
+	process.env.RESUME_LANG === LANGUAGE.PL ? LANGUAGE.PL : LANGUAGE.EN;
 
 function getMonth(startDateStr) {
 	switch (RESUME_LANG) {
@@ -152,6 +153,8 @@ function render(resumeObject) {
 	if (resumeObject.work && resumeObject.work.length) {
 		resumeObject.workBool = true;
 		_.each(resumeObject.work, function (w) {
+			if (!w.name && w.company) w.name = w.company;
+			if (!w.url && w.website) w.url = w.website;
 			if (w.startDate) {
 				w.startDateYear = (w.startDate || '').substr(0, 4);
 				w.startDateMonth = getMonth(w.startDate || '');
@@ -282,9 +285,8 @@ function render(resumeObject) {
 	}
 
 	if (resumeObject.languages && resumeObject.languages.length) {
-		if (resumeObject.languages[0].name) {
+		if (resumeObject.languages[0].language || resumeObject.languages[0].name)
 			resumeObject.languagesBool = true;
-		}
 	}
 
 	if (resumeObject.references && resumeObject.references.length) {
@@ -295,7 +297,10 @@ function render(resumeObject) {
 
 	resumeObject.css = fs.readFileSync(__dirname + '/style.css', 'utf-8');
 	resumeObject.printcss = fs.readFileSync(__dirname + '/print.css', 'utf-8');
-	var theme = fs.readFileSync(__dirname + '/resume.template', 'utf8');
+	var theme = fs.readFileSync(
+		__dirname + '/resume.' + RESUME_LANG + '.template',
+		'utf8',
+	);
 	var resumeHTML = Mustache.render(theme, resumeObject);
 
 	return resumeHTML;

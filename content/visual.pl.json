@@ -1,0 +1,51 @@
+{
+	"basics": {
+		"label": "Frontend Engineer - Interactive & 3D",
+		"summary": "Frontend Engineer z 5-letnim doświadczeniem, specjalizujący się w interaktywnych wizualizacjach webowych 2D i 3D. Buduję konfiguratory produktów w Three.js i PixiJS dla branży meblowej, budowlanej i przemysłowej: od geometrii parametrycznej i zmian materiałów w czasie rzeczywistym po edytory 2D, AR i eksport renderów. Solidne podstawy w React i TypeScript (Next.js, Mantine) oraz doświadczenie backendowe (NestJS) pozwalają mi łączyć wizualizacje z rzeczywistymi danymi, wyceną i zamówieniami. Dbam o wydajność, płynność interakcji i UX."
+	},
+	"work": [
+		{
+			"company": "Effectivity Sp. z o.o.",
+			"position": "Frontend Engineer",
+			"startDate": "2021-11-01",
+			"summary": "Buduję interaktywne aplikacje webowe w React i Next.js (TypeScript), ze szczególnym naciskiem na konfiguratory produktów 2D i 3D dla klientów z branży meblowej, budowlanej i przemysłowej. Często odpowiadam za warstwę wizualizacji od początku do końca: od architektury renderowania po integrację z aplikacją i backendem NestJS. Regularnie uczestniczę w spotkaniach z klientem przy doprecyzowaniu wymagań i omówieniu rozwiązań technicznych.",
+			"highlights": [
+				"Konfiguratory produktów 3D w Three.js: ładowanie modeli GLTF/GLB, podmiana materiałów i tekstur w czasie rzeczywistym, geometria parametryczna generowana z wymiarów podanych przez użytkownika.",
+				"Interakcje ze sceną: zaznaczanie elementów przez raycasting, sterowanie kamerą, animacje i przejścia.",
+				"Oświetlenie i rendering: środowiska HDRI, cienie, post-processing.",
+				"Optymalizacja scen pod desktop i urządzenia mobilne: instancing, LOD, kompresja Draco/KTX2, poprawne zwalnianie zasobów.",
+				"Eksport i AR: rendery sceny do obrazów (np. do wycen PDF), eksport modelu 3D (GLTFExporter), AR przez GLB/USDZ.",
+				"Konfiguratory i edytory 2D w PixiJS v8 zintegrowane z React: widoki rzutu i elewacji, drag & drop, skalowanie, przyciąganie do siatki, zoom/pan na dużych scenach, eksport do obrazu/PDF.",
+				"Połączenie konfiguratorów z logiką biznesową: wieloetapowe wizardy konfiguracji, przekazywanie konfiguracji do ERP/CRM i zamówień, płatności Stripe.",
+				"Projekt firmowego szablonu panelu administracyjnego (React, Mantine, TanStack), przyjętego w ponad 10 projektach; REST API w NestJS z PostgreSQL i TypeORM.",
+				"Wieloplatformowa aplikacja mobilna (Capacitor.js) oraz Web Components wielokrotnego użytku."
+			]
+		}
+	],
+	"skills": [
+		{
+			"name": "Biegła znajomość",
+			"keywords": ["React", "TypeScript", "SCSS", "Mantine"]
+		},
+		{
+			"name": "Dobra znajomość",
+			"keywords": [
+				"Three.js",
+				"PixiJS (v8)",
+				"Next.js",
+				"TanStack Query",
+				"Redux Toolkit",
+				"Node.js (NestJS)",
+				"Capacitor"
+			]
+		},
+		{
+			"name": "Podstawowa znajomość",
+			"keywords": ["GSAP", "WebSockets (Socket.io)"]
+		},
+		{
+			"name": "Narzędzia",
+			"keywords": ["Git", "Vite", "Jira", "Cursor", "VSCode"]
+		}
+	]
+}

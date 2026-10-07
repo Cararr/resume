@@ -3,37 +3,44 @@ const path = require("path");
 const { execSync } = require("child_process");
 
 const root = path.join(__dirname, "..");
+const contentDir = path.join(root, "content");
 
-function copy(src, dest) {
-	fs.copyFileSync(path.join(root, src), path.join(root, dest));
+const VARIANTS = ["tech", "visual"];
+const LANGS = ["en", "pl"];
+
+function readJson(fileName) {
+	return JSON.parse(fs.readFileSync(path.join(contentDir, fileName), "utf8"));
 }
 
-function run(cmd) {
-	execSync(cmd, { stdio: "inherit", cwd: root });
+function mergeResume(base, variant) {
+	return {
+		...base,
+		basics: { ...base.basics, ...variant.basics },
+		work: [...variant.work, ...base.work],
+		skills: variant.skills,
+	};
 }
 
-const kendallIndex = path.join(root, "themes/kendall/index.js");
-
-function setResumeLang(lang) {
-	const content = fs.readFileSync(kendallIndex, "utf8");
-	if (!/const RESUME_LANG = LANGUAGE\.(EN|PL);/.test(content))
-		throw new Error(`Could not find RESUME_LANG in themes/kendall/index.js`);
-	const next = content.replace(
-		/const RESUME_LANG = LANGUAGE\.(EN|PL);/,
-		`const RESUME_LANG = LANGUAGE.${lang};`,
-	);
-	if (next !== content)
-		fs.writeFileSync(kendallIndex, next, "utf8");
+function run(cmd, lang) {
+	execSync(cmd, {
+		stdio: "inherit",
+		cwd: root,
+		env: { ...process.env, RESUME_LANG: lang },
+	});
 }
 
-// PL
-setResumeLang("PL");
-copy("resume.pl.json", "resume.json");
-copy("themes/kendall/resume.pl.template", "themes/kendall/resume.template");
-run("npm run validate && resume export kamil_kacperek_pl.pdf --theme ./themes/kendall");
-
-// EN
-setResumeLang("EN");
-copy("resume.en.json", "resume.json");
-copy("themes/kendall/resume.en.template", "themes/kendall/resume.template");
-run("npm run validate && resume export kamil_kacperek_en.pdf --theme ./themes/kendall");
+for (const variant of VARIANTS)
+	for (const lang of LANGS) {
+		const resume = mergeResume(
+			readJson(`base.${lang}.json`),
+			readJson(`${variant}.${lang}.json`),
+		);
+		fs.writeFileSync(
+			path.join(root, "resume.json"),
+			JSON.stringify(resume, null, "\t") + "\n",
+		);
+		run(
+			`npm run validate && resume export kamil_kacperek_${variant}_${lang}.pdf --theme ./themes/kendall`,
+			lang,
+		);
+	}

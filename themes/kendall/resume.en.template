@@ -185,7 +185,7 @@
           {{#languagesBool}}
           <!-- LANGUAGES -->
           <div class="box">
-            <h2><i class="fas fa-language ico"></i> Języki</h2>
+            <h2><i class="fas fa-language ico"></i> Languages</h2>
             <ul class="list-group">
               {{#languages}}
               <li class=" list-group-item">{{language}}<span class="skill badge pull-right">{{fluency}}</span></li>

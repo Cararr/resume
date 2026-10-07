@@ -1,0 +1,60 @@
+{
+	"basics": {
+		"label": "Frontend Engineer (React / TypeScript)",
+		"summary": "Frontend Engineer with 5 years of experience building business web applications in React and TypeScript. I specialize in data-heavy interfaces (admin panels, server-side tables, multi-step forms and business workflows) built with Next.js, Mantine and TanStack Query. Backend experience with NestJS, TypeORM and PostgreSQL lets me design data models and APIs together with the frontend and integrate external systems (ERP/CRM, Stripe). I often own the frontend end-to-end: from requirements and estimates, through architecture decisions, to code review."
+	},
+	"work": [
+		{
+			"company": "Effectivity Sp. z o.o.",
+			"position": "Frontend Engineer",
+			"startDate": "2021-11-01",
+			"summary": "I deliver React/Next.js (TypeScript) applications for B2B clients, from admin panels and product configurators to a mobile app, often as the sole frontend developer on a project. I build REST APIs in NestJS alongside the client layer and integrate them with clients' systems. I take part in client meetings to refine requirements, estimate work and discuss technical options.",
+			"highlights": [
+				"Designed and rolled out the company-wide admin panel template (Mantine, TanStack Query/Table/Virtual), adopted in 10+ projects: layout and theming, role-based access control, generic CRUD views and forms, a typed API layer with unified error handling.",
+				"Built data-heavy views with server-side sorting, filtering and pagination, and virtualized lists for large datasets.",
+				"Implemented multi-step forms and business workflows (statuses, approvals, order flows) with a clear split between server state (TanStack Query) and client state (Redux Toolkit).",
+				"Developed REST APIs in NestJS: PostgreSQL data modeling with TypeORM, DTO validation, JWT authentication (token issuance, validation, refresh) and role-based access.",
+				"Integrated external systems: client ERP/CRM and third-party REST APIs (passing configured products to quotes and orders), Stripe payments.",
+				"Built a cross-platform mobile app (Android, iOS) with Capacitor.js, using native device APIs.",
+				"Created and shipped reusable Web Components.",
+				"Delivered interactive 3D (Three.js) and 2D (PixiJS) product configurators connected to ordering flows.",
+				"Code review, architecture and stack decisions, estimates and breaking requirements down into tasks."
+			]
+		}
+	],
+	"skills": [
+		{
+			"name": "Proficient in",
+			"keywords": [
+				"React",
+				"TypeScript",
+				"Mantine",
+				"TanStack Query/Table/Virtual",
+				"SCSS"
+			]
+		},
+		{
+			"name": "Good knowledge of",
+			"keywords": [
+				"Next.js",
+				"Redux Toolkit",
+				"Node.js (NestJS)",
+				"TypeORM",
+				"PostgreSQL",
+				"REST API design",
+				"JWT auth",
+				"Capacitor",
+				"Three.js",
+				"PixiJS"
+			]
+		},
+		{
+			"name": "Basic knowledge of",
+			"keywords": ["WebSockets (Socket.io)", "GSAP"]
+		},
+		{
+			"name": "Tools",
+			"keywords": ["Git", "Jira", "Vite", "Cursor", "VSCode"]
+		}
+	]
+}

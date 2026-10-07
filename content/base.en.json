@@ -1,0 +1,56 @@
+{
+	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+	"meta": {
+		"x-lang": "en",
+		"gdprClause": "I consent to the processing of my personal data for the purposes necessary to carry out the recruitment process in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (GDPR)."
+	},
+	"basics": {
+		"name": "Kamil Kacperek",
+		"email": "kamilkacperek91@gmail.com",
+		"phone": "+48 510 938 585",
+		"location": {
+			"city": "Świdnica",
+			"countryCode": "PL",
+			"region": "Lower Silesia"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "kamil-kacperek",
+				"url": "https://www.linkedin.com/in/kamil-kacperek-78b911141/"
+			}
+		]
+	},
+	"work": [
+		{
+			"company": "Medical Sector",
+			"position": "Physiotherapist",
+			"startDate": "2016-10-01",
+			"endDate": "2021-11-01",
+			"summary": "Clinical work with patients, requiring teamwork, clear communication and decision-making under time pressure. I now use these skills daily in client-facing IT projects.",
+			"highlights": [
+				"Planned and coordinated therapy together with an interdisciplinary team.",
+				"Adapted communication to each patient's individual needs."
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "University School of Physical Education in Wrocław",
+			"area": "Physiotherapy",
+			"studyType": "Master’s Degree",
+			"startDate": "2010-10-01",
+			"endDate": "2016-07-01"
+		}
+	],
+	"languages": [
+		{
+			"language": "Polish",
+			"fluency": "Native"
+		},
+		{
+			"language": "English",
+			"fluency": "B2 (professional working proficiency)"
+		}
+	]
+}
