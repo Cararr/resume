@@ -18,7 +18,8 @@
 				"Built 2D configurators and editors in PixiJS v8 integrated with React: plan and elevation views, drag & drop, scaling, grid snapping, zoom/pan on large scenes, export to image/PDF.",
 				"Connected configurators to business logic: multi-step configuration wizards, passing configurations to ERP/CRM and orders, Stripe payments.",
 				"Designed the company-wide admin panel template (React, Mantine, TanStack), adopted in 10+ projects; REST APIs in NestJS with PostgreSQL/TypeORM.",
-				"Cross-platform mobile app (Capacitor.js) and reusable Web Components."
+				"Cross-platform mobile app (Capacitor.js) and reusable Web Components.",
+				"I use AI inside the development flow, at planning and implementation: Cursor with MCP, skills and rules (external and my own) for research and execution, while design and review decisions stay mine."
 			]
 		}
 	],
@@ -45,7 +46,7 @@
 		},
 		{
 			"name": "Tools",
-			"keywords": ["Git", "Vite", "Jira", "Cursor", "VSCode"]
+			"keywords": ["Cursor", "Git", "Vite", "Jira", "VSCode"]
 		}
 	]
 }

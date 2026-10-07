@@ -18,7 +18,8 @@
 				"Built a cross-platform mobile app (Android, iOS) with Capacitor.js, using native device APIs.",
 				"Created and shipped reusable Web Components.",
 				"Delivered interactive 3D (Three.js) and 2D (PixiJS) product configurators connected to ordering flows.",
-				"Code review, architecture and stack decisions, estimates and breaking requirements down into tasks."
+				"Code review, architecture and stack decisions, estimates and breaking requirements down into tasks.",
+				"I use AI inside the delivery flow, at planning and implementation: Cursor with MCP, skills and rules (external and my own) for research and execution. Architecture, estimates and code review stay with me."
 			]
 		}
 	],
@@ -54,7 +55,7 @@
 		},
 		{
 			"name": "Tools",
-			"keywords": ["Git", "Jira", "Vite", "Cursor", "VSCode"]
+			"keywords": ["Cursor", "Git", "Jira", "Vite", "VSCode"]
 		}
 	]
 }

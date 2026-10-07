@@ -39,7 +39,8 @@
 				"Konfiguratory i edytory 2D w PixiJS v8 zintegrowane z React: widoki rzutu i elewacji, drag & drop, skalowanie, przyciąganie do siatki, zoom/pan na dużych scenach, eksport do obrazu/PDF.",
 				"Połączenie konfiguratorów z logiką biznesową: wieloetapowe wizardy konfiguracji, przekazywanie konfiguracji do ERP/CRM i zamówień, płatności Stripe.",
 				"Projekt firmowego szablonu panelu administracyjnego (React, Mantine, TanStack), przyjętego w ponad 10 projektach; REST API w NestJS z PostgreSQL i TypeORM.",
-				"Wieloplatformowa aplikacja mobilna (Capacitor.js) oraz Web Components wielokrotnego użytku."
+				"Wieloplatformowa aplikacja mobilna (Capacitor.js) oraz Web Components wielokrotnego użytku.",
+				"AI wpięte w proces developmentu, na etapie planowania i implementacji: Cursor z MCP, skills i rules (zewnętrzne i własne) do researchu i wykonania; decyzje projektowe i review zostają po mojej stronie."
 			]
 		},
 		{
@@ -105,10 +106,10 @@
 		{
 			"name": "Narzędzia",
 			"keywords": [
+				"Cursor",
 				"Git",
 				"Vite",
 				"Jira",
-				"Cursor",
 				"VSCode"
 			]
 		}

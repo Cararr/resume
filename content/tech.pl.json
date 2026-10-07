@@ -18,7 +18,8 @@
 				"Wieloplatformowa aplikacja mobilna (Android, iOS) w Capacitor.js, z wykorzystaniem natywnych API urządzenia.",
 				"Tworzenie i wdrażanie wielokrotnego użytku Web Components.",
 				"Interaktywne konfiguratory produktów 3D (Three.js) i 2D (PixiJS) powiązane z przepływami zamówień.",
-				"Code review, decyzje architektoniczne i dobór stacku, estymacje oraz rozbijanie wymagań na zadania."
+				"Code review, decyzje architektoniczne i dobór stacku, estymacje oraz rozbijanie wymagań na zadania.",
+				"AI wpięte w proces dostarczania, na etapie planowania i implementacji: Cursor z MCP, skills i rules (zewnętrzne i własne) do researchu i wykonania. Architektura, estymacje i code review zostają po mojej stronie."
 			]
 		}
 	],
@@ -54,7 +55,7 @@
 		},
 		{
 			"name": "Narzędzia",
-			"keywords": ["Git", "Jira", "Vite", "Cursor", "VSCode"]
+			"keywords": ["Cursor", "Git", "Jira", "Vite", "VSCode"]
 		}
 	]
 }
