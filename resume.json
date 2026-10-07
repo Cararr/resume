@@ -1,17 +1,18 @@
 {
 	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
 	"meta": {
-		"x-lang": "en",
-		"gdprClause": "I consent to the processing of my personal data for the purposes necessary to carry out the recruitment process in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (GDPR)."
+		"x-lang": "pl",
+		"gdprClause": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO)."
 	},
 	"basics": {
 		"name": "Kamil Kacperek",
 		"email": "kamilkacperek91@gmail.com",
 		"phone": "+48 510 938 585",
+		"image": "https://raw.githubusercontent.com/Cararr/resume/main/assets/avatar1.jpg",
 		"location": {
 			"city": "Świdnica",
 			"countryCode": "PL",
-			"region": "Lower Silesia"
+			"region": "Dolnośląskie"
 		},
 		"profiles": [
 			{
@@ -21,60 +22,60 @@
 			}
 		],
 		"label": "Frontend Engineer - Interactive & 3D",
-		"summary": "Frontend Engineer with 5 years of experience, specializing in interactive 2D and 3D web visualizations. I build product configurators in Three.js and PixiJS for the furniture, construction and industrial sectors, from parametric geometry and real-time material changes to 2D editors, AR and render export. A solid React and TypeScript foundation (Next.js, Mantine) and backend experience (NestJS) let me connect visualizations to real data, pricing and ordering. I care about performance, smooth interactions and UX."
+		"summary": "Frontend Engineer z 5-letnim doświadczeniem, specjalizujący się w interaktywnych wizualizacjach webowych 2D i 3D. Buduję konfiguratory produktów w Three.js i PixiJS dla branży meblowej, budowlanej i przemysłowej: od geometrii parametrycznej i zmian materiałów w czasie rzeczywistym po edytory 2D, AR i eksport renderów. Solidne podstawy w React i TypeScript (Next.js, Mantine) oraz doświadczenie backendowe (NestJS) pozwalają mi łączyć wizualizacje z rzeczywistymi danymi, wyceną i zamówieniami. Dbam o wydajność, płynność interakcji i UX."
 	},
 	"work": [
 		{
 			"company": "Effectivity Sp. z o.o.",
 			"position": "Frontend Engineer",
 			"startDate": "2021-11-01",
-			"summary": "I build interactive web applications in React and Next.js (TypeScript), focused on 2D and 3D product configurators for clients in the furniture, construction and industrial sectors. I often own the visualization layer end-to-end, from rendering architecture to integration with the application and the NestJS backend. I regularly meet with clients to refine requirements and discuss technical options.",
+			"summary": "Buduję interaktywne aplikacje webowe w React i Next.js (TypeScript), ze szczególnym naciskiem na konfiguratory produktów 2D i 3D dla klientów z branży meblowej, budowlanej i przemysłowej. Często odpowiadam za warstwę wizualizacji od początku do końca: od architektury renderowania po integrację z aplikacją i backendem NestJS. Regularnie uczestniczę w spotkaniach z klientem przy doprecyzowaniu wymagań i omówieniu rozwiązań technicznych.",
 			"highlights": [
-				"Built 3D product configurators in Three.js: GLTF/GLB model loading, real-time material and texture swaps, parametric geometry generated from user-entered dimensions.",
-				"Implemented scene interactions: raycasting-based element selection, camera control, animations and transitions.",
-				"Set up lighting and rendering: HDRI environments, shadows, post-processing.",
-				"Optimized scenes for desktop and mobile: instancing, LOD, Draco/KTX2 compression, proper resource disposal.",
-				"Export and AR: scene renders to images (e.g. for PDF quotes), 3D model export (GLTFExporter), AR via GLB/USDZ.",
-				"Built 2D configurators and editors in PixiJS v8 integrated with React: plan and elevation views, drag & drop, scaling, grid snapping, zoom/pan on large scenes, export to image/PDF.",
-				"Connected configurators to business logic: multi-step configuration wizards, passing configurations to ERP/CRM and orders, Stripe payments.",
-				"Designed the company-wide admin panel template (React, Mantine, TanStack), adopted in 10+ projects; REST APIs in NestJS with PostgreSQL/TypeORM.",
-				"Cross-platform mobile app (Capacitor.js) and reusable Web Components."
+				"Konfiguratory produktów 3D w Three.js: ładowanie modeli GLTF/GLB, podmiana materiałów i tekstur w czasie rzeczywistym, geometria parametryczna generowana z wymiarów podanych przez użytkownika.",
+				"Interakcje ze sceną: zaznaczanie elementów przez raycasting, sterowanie kamerą, animacje i przejścia.",
+				"Oświetlenie i rendering: środowiska HDRI, cienie, post-processing.",
+				"Optymalizacja scen pod desktop i urządzenia mobilne: instancing, LOD, kompresja Draco/KTX2, poprawne zwalnianie zasobów.",
+				"Eksport i AR: rendery sceny do obrazów (np. do wycen PDF), eksport modelu 3D (GLTFExporter), AR przez GLB/USDZ.",
+				"Konfiguratory i edytory 2D w PixiJS v8 zintegrowane z React: widoki rzutu i elewacji, drag & drop, skalowanie, przyciąganie do siatki, zoom/pan na dużych scenach, eksport do obrazu/PDF.",
+				"Połączenie konfiguratorów z logiką biznesową: wieloetapowe wizardy konfiguracji, przekazywanie konfiguracji do ERP/CRM i zamówień, płatności Stripe.",
+				"Projekt firmowego szablonu panelu administracyjnego (React, Mantine, TanStack), przyjętego w ponad 10 projektach; REST API w NestJS z PostgreSQL i TypeORM.",
+				"Wieloplatformowa aplikacja mobilna (Capacitor.js) oraz Web Components wielokrotnego użytku."
 			]
 		},
 		{
-			"company": "Medical Sector",
-			"position": "Physiotherapist",
+			"company": "Branża medyczna",
+			"position": "Fizjoterapeuta",
 			"startDate": "2016-10-01",
 			"endDate": "2021-11-01",
-			"summary": "Clinical work with patients, requiring teamwork, clear communication and decision-making under time pressure. I now use these skills daily in client-facing IT projects.",
+			"summary": "Praca z pacjentami w środowisku klinicznym, wymagająca współpracy zespołowej, jasnej komunikacji i podejmowania decyzji pod presją czasu. Te umiejętności wykorzystuję na co dzień w projektach IT prowadzonych z klientem.",
 			"highlights": [
-				"Planned and coordinated therapy together with an interdisciplinary team.",
-				"Adapted communication to each patient's individual needs."
+				"Planowanie i koordynacja terapii we współpracy z interdyscyplinarnym zespołem.",
+				"Dostosowywanie komunikacji do indywidualnych potrzeb pacjentów."
 			]
 		}
 	],
 	"education": [
 		{
-			"institution": "University School of Physical Education in Wrocław",
-			"area": "Physiotherapy",
-			"studyType": "Master’s Degree",
+			"institution": "Akademia Wychowania Fizycznego we Wrocławiu",
+			"area": "Fizjoterapia",
+			"studyType": "Magister",
 			"startDate": "2010-10-01",
 			"endDate": "2016-07-01"
 		}
 	],
 	"languages": [
 		{
-			"language": "Polish",
-			"fluency": "Native"
+			"language": "Polski",
+			"fluency": "Ojczysty"
 		},
 		{
-			"language": "English",
-			"fluency": "B2 (professional working proficiency)"
+			"language": "Angielski",
+			"fluency": "B2 (swobodna komunikacja w środowisku zawodowym)"
 		}
 	],
 	"skills": [
 		{
-			"name": "Proficient in",
+			"name": "Biegła znajomość",
 			"keywords": [
 				"React",
 				"TypeScript",
@@ -83,7 +84,7 @@
 			]
 		},
 		{
-			"name": "Good knowledge of",
+			"name": "Dobra znajomość",
 			"keywords": [
 				"Three.js",
 				"PixiJS (v8)",
@@ -95,14 +96,14 @@
 			]
 		},
 		{
-			"name": "Basic knowledge of",
+			"name": "Podstawowa znajomość",
 			"keywords": [
 				"GSAP",
 				"WebSockets (Socket.io)"
 			]
 		},
 		{
-			"name": "Tools",
+			"name": "Narzędzia",
 			"keywords": [
 				"Git",
 				"Vite",
