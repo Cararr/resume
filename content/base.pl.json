@@ -10,6 +10,7 @@
 		"phone": "+48 510 938 585",
 		"image": "https://raw.githubusercontent.com/Cararr/resume/main/assets/avatar1.jpg",
 		"location": {
+			"address": "Wrocław (dojazd) · zdalnie · hybryda",
 			"city": "Świdnica",
 			"countryCode": "PL",
 			"region": "Dolnośląskie"
@@ -28,11 +29,7 @@
 			"position": "Fizjoterapeuta",
 			"startDate": "2016-10-01",
 			"endDate": "2021-11-01",
-			"summary": "Praca z pacjentami w środowisku klinicznym, wymagająca współpracy zespołowej, jasnej komunikacji i podejmowania decyzji pod presją czasu. Te umiejętności wykorzystuję na co dzień w projektach IT prowadzonych z klientem.",
-			"highlights": [
-				"Planowanie i koordynacja terapii we współpracy z interdyscyplinarnym zespołem.",
-				"Dostosowywanie komunikacji do indywidualnych potrzeb pacjentów."
-			]
+			"summary": "Praca z pacjentami w środowisku klinicznym, wymagająca współpracy zespołowej, jasnej komunikacji i podejmowania decyzji pod presją czasu. Te umiejętności wykorzystuję na co dzień w projektach IT prowadzonych z klientem."
 		}
 	],
 	"education": [

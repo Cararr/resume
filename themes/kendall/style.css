@@ -272,6 +272,9 @@ blockquote {
 	width: 100%;
 	overflow: hidden;
 }
+.contact-item-location {
+	grid-column: 1 / -1;
+}
 .contact-item .icon {
 	padding: 10px;
 	border-right: 1px solid #ccc;

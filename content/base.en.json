@@ -9,6 +9,7 @@
 		"email": "kamilkacperek91@gmail.com",
 		"phone": "+48 510 938 585",
 		"location": {
+			"address": "Wrocław (commute) · remote · hybrid",
 			"city": "Świdnica",
 			"countryCode": "PL",
 			"region": "Lower Silesia"
@@ -27,11 +28,7 @@
 			"position": "Physiotherapist",
 			"startDate": "2016-10-01",
 			"endDate": "2021-11-01",
-			"summary": "Clinical work with patients, requiring teamwork, clear communication and decision-making under time pressure. I now use these skills daily in client-facing IT projects.",
-			"highlights": [
-				"Planned and coordinated therapy together with an interdisciplinary team.",
-				"Adapted communication to each patient's individual needs."
-			]
+			"summary": "Clinical work with patients, requiring teamwork, clear communication and decision-making under time pressure. I now use these skills daily in client-facing IT projects."
 		}
 	],
 	"education": [
